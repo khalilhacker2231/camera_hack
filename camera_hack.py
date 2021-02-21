@@ -59,7 +59,7 @@ try:
                    print ("\033[1;31m",hasil)
                    count += 1
 
-     except:
+        except:
             print(" ")
     elif num == 2:
         print("\n")
@@ -77,7 +77,7 @@ try:
 
                    print ("\033[1;31m",hasil)
                   count += 1
-     except:
+        except:
             print(" ")
     elif num == 3:
         print("\n")
