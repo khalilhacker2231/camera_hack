@@ -13,7 +13,7 @@ print("""
 
   Author        :Khalilurahamn Hussaini
   Githup        :https://Githup.com/Khalilhacker2231
- YouTube       :AFGHAN tECH                         
+ YouTube        :https://m.youtube.com/channel/UC5ACs0NTB4VZkKzrSzEBqRA            
  fACEBOOKE     :AFGHAN tECH                         
  Telegram    : https://t.me/khalil2231              
 --------------------------------------------------  
