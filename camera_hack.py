@@ -55,8 +55,9 @@ try:
 
                for _ in findip:
                    hasil = findip[count]
+
                    print ("\033[1;31m",hasil)
-                  count += 1
+                   count += 1
 
      except:
             print(" ")
@@ -73,6 +74,7 @@ try:
 
                for _ in findip:
                    hasil = findip[count]
+
                    print ("\033[1;31m",hasil)
                   count += 1
      except:
@@ -89,7 +91,8 @@ try:
                 count = 0
 
                 for _ in findip:
-                    hasil = findip[count]
+                    
+hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count += 1
      except:
@@ -281,7 +284,7 @@ try:
                     count +=1                                                                                                                                                            
 
            except:
-           print(" ")
+                  print(" ")
        
      else:
      print(" ")
