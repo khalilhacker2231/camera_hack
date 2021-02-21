@@ -90,12 +90,11 @@ try:
                 findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.\', res.text)
                 count = 0
 
-                for _ in findip:
-                    
-hasil = findip[count]
+                for _ in findip:               
+                    hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count += 1
-     except:
+        except:
             print(" ")
     elif num == 4:
         print("\n")
@@ -112,7 +111,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 5:
         print("\n")
@@ -129,7 +128,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 6:
         print("\n")
@@ -146,7 +145,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 7:
         print("\n")
@@ -163,7 +162,7 @@ hasil = findip[count]
                     hasil = find[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 8:
         print("\n")
@@ -180,7 +179,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif  num == 9:
         print("\n"):
@@ -197,7 +196,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     prin ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 10:
         print("\n"):
@@ -214,7 +213,7 @@ hasil = findip[count]
                     hasil = findip[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 11:
         print("\n")
@@ -231,7 +230,7 @@ hasil = findip[count]
                     hasil = find[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 12:
         print("\n")
@@ -248,7 +247,7 @@ hasil = findip[count]
                     hasil = find[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+        except:
             print(" ")
     elif num == 13:
         print("\n")
@@ -265,7 +264,7 @@ hasil = findip[count]
                     hasil = find[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-     except:
+         except:
             print(" ")
      elif num == 14:
         print("\n")
