@@ -46,7 +46,7 @@ try:
         print("\n")
         try:
               headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}
-           for page  in range (0,720):
+              for page  in range (0,720):
                url = ("https://www.insecam.org/en/bycountry/US/?page="+str(page))
 
                res=requests.get(url,headers=headers)
@@ -64,7 +64,7 @@ try:
         print("\n")
         try:
             headers = {'User-Agent': 'Mozilla/5.0 (x11;linux i686; rv:68.0) Gecko/20100101 firefox/68.0'}
-           for page in range (0,232):
+            for page in range (0,232):
                url = ("https://www.insecam.org/en/bycountry/Jp/?[page="+str(page))
 
                res=requests.get(url,headers=headers)
@@ -288,4 +288,3 @@ try:
     
 except keybourdInterrupt:
   print(" ")
-                      
