@@ -265,7 +265,7 @@ try:
                     print ("\033[1;31m",hasil)
                     count +=1
          except:
-            print(" ")
+             print(" ")
      elif num == 14:
         print("\n")
         try:
