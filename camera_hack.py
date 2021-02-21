@@ -38,7 +38,8 @@ print("""
 
 try:
     num = int(input("OPTIONS : "))
-
+  except:
+         print(" ")
  elif num == 1:
         print("\n")
         try:
