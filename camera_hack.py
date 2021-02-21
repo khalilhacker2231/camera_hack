@@ -41,7 +41,6 @@ try:
   
          
 
-
     if num == 1:
         print("\n")
         try:
