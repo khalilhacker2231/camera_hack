@@ -69,7 +69,7 @@ try:
                url = ("https://www.insecam.org/en/bycountry/Jp/?[page="+str(page))
 
                res=requests.get(url,headers=headers)
-               findip = re.findall('http://\d+.\d+./d+.\d+.\d+.', res.text)
+               findip = re.findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                count = 0
 
                for _ in findip:
@@ -87,7 +87,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/IT/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:               
@@ -104,7 +104,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/KR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -121,7 +121,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/FR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                fingip = re,fingall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                fingip = re,fingall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -138,7 +138,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/GE/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -155,7 +155,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/TW/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -172,7 +172,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/RU/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -189,7 +189,7 @@ try:
                 url = ("https://www.insecam.org/en/bycountry/UK/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -203,10 +203,10 @@ try:
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in range (0,66):
-                url = ("https://www.insecdam.org/en/bycountry/NL/?[page="+(page))
+                url = ("https://www.insecdam.org/en/bycountry/NL/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)    
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)    
                 count = 0
 
                 for _ in findip:
@@ -220,10 +220,10 @@ try:
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in range (0,58):
-                url = ("https://www.insecam.org/en/bycountry/CZ/?[page="+(page))
+                url = ("https://www.insecam.org/en/bycountry/CZ/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -237,10 +237,10 @@ try:
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in range (0,54):
-                url = ("https://www.insecam.org/en/bycountry/TR/?[page="+(page))
+                url = ("https://www.insecam.org/en/bycountry/TR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -254,10 +254,10 @@ try:
         try:
             headers = {'User-Agent': 'Mozolla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in  rang (0,48):
-                url = ("https://wwww.insecam.org/en/bycountry/AS/?[page="+(page))
+                url = ("https://wwww.insecam.org/en/bycountry/AS/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
@@ -271,10 +271,10 @@ try:
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in range (0,44):
-                url = ("https://www.insecam.org/en/bycountry/SL/?[page="+(page))
+                url = ("https://www.insecam.org/en/bycountry/SL/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+.', res.text)
+                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
                 count = 0
 
                 for _ in findip:
