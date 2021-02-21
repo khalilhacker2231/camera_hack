@@ -266,7 +266,7 @@ try:
                     count +=1
         except:
             print(" ")
-     elif num == 14:
+    elif num == 14:
         print("\n")
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
