@@ -76,7 +76,7 @@ try:
                    hasil = findip[count]
 
                    print ("\033[1;31m",hasil)
-                  count += 1
+                   count += 1
         except:
             print(" ")
     elif num == 3:
