@@ -199,7 +199,7 @@ try:
         except:
             print(" ")
     elif num == 10:
-        print("\n"):
+        print("\n")
         try:
             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
             for page in range (0,66):
