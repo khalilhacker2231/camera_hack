@@ -264,8 +264,8 @@ try:
                     hasil = find[count]
                     print ("\033[1;31m",hasil)
                     count +=1
-         except:
-             print(" ")
+        except:
+            print(" ")
      elif num == 14:
         print("\n")
         try:
