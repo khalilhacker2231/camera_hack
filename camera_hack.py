@@ -282,11 +282,11 @@ try:
                     print ("\033[1;31m",hasil)
                     count +=1                                                                                                                                                            
 
-         except:
-             print(" ")
+        except:
+            print(" ")
        
-     else:
-         print(" ")
+    else:
+        print(" ")
     
 except keybourdInterrupt:
         print(" ")
