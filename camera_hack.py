@@ -38,9 +38,11 @@ print("""
 
 try:
     num = int(input("OPTIONS : "))
-  except :
-         print(" ")
- elif num == 1:
+  
+         
+
+
+    if num == 1:
         print("\n")
         try:
               headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}
