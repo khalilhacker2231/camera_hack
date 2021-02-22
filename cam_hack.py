@@ -63,8 +63,8 @@ try:
     elif num == 2:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (x11;linux i686; rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,232):
+             headers = {'User-Agent': 'Mozilla/5.0 (x11;linux i686; rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,232):
                url = ("https://www.insecam.org/en/bycountry/Jp/?[page="+str(page))
 
                res=requests.get(url,headers=headers)
@@ -81,8 +81,8 @@ try:
     elif num == 3:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,159):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,159):
                 url = ("https://www.insecam.org/en/bycountry/IT/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -98,8 +98,8 @@ try:
     elif num == 4:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,141):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,141):
                 url = ("https://www.insecam.org/en/bycountry/KR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -115,8 +115,8 @@ try:
     elif num == 5:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,120):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,120):
                 url = ("https://www.insecam.org/en/bycountry/FR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -132,8 +132,8 @@ try:
     elif num == 6:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,107):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,107):
                 url = ("https://www.insecam.org/en/bycountry/GE/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -149,8 +149,8 @@ try:
     elif num == 7:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,92):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,92):
                 url = ("https://www.insecam.org/en/bycountry/TW/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -166,8 +166,8 @@ try:
     elif num == 8:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,82):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,82):
                 url = ("https://www.insecam.org/en/bycountry/RU/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -183,8 +183,8 @@ try:
     elif  num == 9:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,81):
+              headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv68.0) Gecko/20100101 firefox/68.0'}
+              for page  in range (0,81):
                 url = ("https://www.insecam.org/en/bycountry/UK/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -200,8 +200,8 @@ try:
     elif num == 10:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,66):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,66):
                 url = ("https://www.insecdam.org/en/bycountry/NL/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -217,8 +217,8 @@ try:
     elif num == 11:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,58):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,58):
                 url = ("https://www.insecam.org/en/bycountry/CZ/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -234,8 +234,8 @@ try:
     elif num == 12:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,54):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,54):
                 url = ("https://www.insecam.org/en/bycountry/TR/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -251,8 +251,8 @@ try:
     elif num == 13:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozolla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-            for page in  rang (0,48):
+             headers = {'User-Agent': 'Mozolla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
+             for page  in  rang (0,48):
                 url = ("https://wwww.insecam.org/en/bycountry/AS/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
@@ -268,8 +268,8 @@ try:
     elif num == 14:
         print("\n")
         try:
-            headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-            for page in range (0,44):
+             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
+             for page  in range (0,44):
                 url = ("https://www.insecam.org/en/bycountry/SL/?[page="+str(page))
 
                 res=requests.get(url,headers=headers)
