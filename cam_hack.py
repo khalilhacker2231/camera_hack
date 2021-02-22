@@ -42,244 +42,287 @@ try:
          
 
     if num == 1:
-        print("\n")
+        print("\n")		
         try:
-              headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}
-              for page  in range (0,720):
-               url = ("https://www.insecam.org/en/bycountry/US/?page="+str(page))
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,720):
+			
+                url = ("https://www.insecam.org/en/bycountry/US/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
+                count = 0
+                                
+                for _ in findip:
+                     hasil = findip[count]
 
-               res=requests.get(url,headers=headers)
-               findip = re.findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
-               count = 0
-
-               for _ in findip:
-                   hasil = findip[count]
-
-                   print ("\033[1;31m",hasil)
-                   count += 1
-
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")
     elif num == 2:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla/5.0 (x11;linux i686; rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,232):
-               url = ("https://www.insecam.org/en/bycountry/Jp/?[page="+str(page))
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,232):
+			
+                url = ("https://www.insecam.org/en/bycountry/JP/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
+                count = 0
+                                
+                for _ in findip:
+                     hasil = findip[count]
 
-               res=requests.get(url,headers=headers)
-               findip = re.findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
-               count = 0
-
-               for _ in findip:
-                   hasil = findip[count]
-
-                   print ("\033[1;31m",hasil)
-                   count += 1
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")
+            
     elif num == 3:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,159):
-                url = ("https://www.insecam.org/en/bycountry/IT/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,159):
+			
+                url = ("https://www.insecam.org/en/bycountry/IT/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
+                                
+                for _ in findip:
+                     hasil = findip[count]
 
-                for _ in findip:               
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count += 1
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")
+
     elif num == 4:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,141):
-                url = ("https://www.insecam.org/en/bycountry/KR/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,141):
+			
+                url = ("https://www.insecam.org/en/bycountry/KR/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")            
+            
     elif num == 5:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,120):
-                url = ("https://www.insecam.org/en/bycountry/FR/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                fingip = re,fingall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,120):
+			
+                url = ("https://www.insecam.org/en/bycountry/FR/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")
     elif num == 6:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,107):
-                url = ("https://www.insecam.org/en/bycountry/GE/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,107):
+			
+                url = ("https://www.insecam.org/en/bycountry/DE/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ")
+
     elif num == 7:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,92):
-                url = ("https://www.insecam.org/en/bycountry/TW/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,92):
+			
+                url = ("https://www.insecam.org/en/bycountry/TW/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = find[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 8:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv:68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,82):
-                url = ("https://www.insecam.org/en/bycountry/RU/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,82):
+			
+                url = ("https://www.insecam.org/en/bycountry/RU/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
-    elif  num == 9:
-        print("\n")
+            print (" ") 
+    elif num == 9:
+        print("\n")		
         try:
-              headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;rv68.0) Gecko/20100101 firefox/68.0'}
-              for page  in range (0,81):
-                url = ("https://www.insecam.org/en/bycountry/UK/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,81):
+			
+                url = ("https://www.insecam.org/en/bycountry/GB/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    prin ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 10:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,66):
-                url = ("https://www.insecdam.org/en/bycountry/NL/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)    
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,66):
+			
+                url = ("https://www.insecam.org/en/bycountry/NL/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = findip[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 11:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,58):
-                url = ("https://www.insecam.org/en/bycountry/CZ/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,58):
+			
+                url = ("https://www.insecam.org/en/bycountry/CZ/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = find[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 12:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,54):
-                url = ("https://www.insecam.org/en/bycountry/TR/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,54):
+			
+                url = ("https://www.insecam.org/en/bycountry/TR/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = find[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 13:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozolla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-             for page  in  rang (0,48):
-                url = ("https://wwww.insecam.org/en/bycountry/AS/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,48):
+			
+                url = ("https://www.insecam.org/en/bycountry/AT/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = find[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1
         except:
-            print(" ")
+            print (" ") 
     elif num == 14:
-        print("\n")
+        print("\n")		
         try:
-             headers = {'User-Agent': 'Mozilla\5.0 (x11;linux i686;68.0) Gecko/20100101 firefox/68.0'}
-             for page  in range (0,44):
-                url = ("https://www.insecam.org/en/bycountry/SL/?[page="+str(page))
-
-                res=requests.get(url,headers=headers)
-                findip = re,findall('http://\d+.\d+.\d+.\d+.\d+', res.text)
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
+            for page in range (0,44):
+			
+                url = ("https://www.insecam.org/en/bycountry/CH/?page="+str(page))
+            
+                res = requests.get(url, headers=headers)
+                findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
                 count = 0
-
+                                
                 for _ in findip:
-                    hasil = find[count]
-                    print ("\033[1;31m",hasil)
-                    count +=1                                                                                                                                                            
+                     hasil = findip[count]
+
+                     print ("\033[1;31m",hasil)
+                 
+                     count += 1                                                                                                                                               
 
         except:
             print(" ")
